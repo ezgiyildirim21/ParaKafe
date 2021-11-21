@@ -50,8 +50,7 @@ namespace ParaKafe
             }
 
             SiparisForm sf = new SiparisForm(siparis, db);
-            sf. 
-               //  += Sf_MasaTasindi;
+            sf.MasaTasindi += Sf_MasaTasindi;
             sf.ShowDialog();
 
             if (siparis.Durum != SiparisDurum.Aktif)
