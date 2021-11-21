@@ -16,10 +16,7 @@ namespace ParaKafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AnaForm());
-            // Application.Run(new SiparisForm());
-            // Application.Run(new UrunlerForm());
-            // Application.Run(new GecmisSiparislerForm());
+            Application.Run(new AnaForm()); 
         }
     }
 }

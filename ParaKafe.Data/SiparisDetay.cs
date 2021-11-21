@@ -11,7 +11,7 @@ namespace ParaKafe.Data
         public string UrunAd { get; set; }
         public decimal BirimFiyat { get; set; }
         public int Adet { get; set; }
-        private string TutarTL 
+        public string TutarTL 
         { 
             get 
             { 
